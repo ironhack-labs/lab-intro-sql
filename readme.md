@@ -5,7 +5,7 @@
 In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You can follow the steps listed here to get the data locally: [Sakila sample database - installation](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
 
 The database is structured as follows:
-![DB schema](https://bitbucket.org/ironhack/data/raw/f9195194f117cd25d70b4cb343f9575bf98ac222/sql/lab_case_study/img/schema.png)
+![DB schema](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/database-sakila-schema.png)
 
 <br><br>
 

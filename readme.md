@@ -2,17 +2,21 @@
 
 # Lab | SQL Intro
 
-In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You can follow the steps listed here to get the data locally: [Sakila sample database - installation](https://dev.mysql.com/doc/sakila/en/sakila-installation.html).
+In this lab, you will be using the [Sakila](https://dev.mysql.com/doc/sakila/en/) database of movie rentals. You can follow the steps listed here to get the data locally: [Sakila sample database - installation](https://dev.mysql.com/doc/sakila/en/sakila-installation.html). You can work with two sql query files - `sakila-schema.sql` (creates the schema) + `sakila-data.sql` which inserts the data.
 
-The database is structured as follows:
+The ERD is pictured below - not all tables are shown, but many of the key fields you will be using are visible:
+
+<br>
+
 ![DB schema](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/database-sakila-schema.png)
 
 <br><br>
 
 ### Instructions
 
-1. Show tables in the database.
-2. Explore tables. (select everything from each table)
+1. Review the tables in the database.
+2. Explore tables by selecting all columns from each table or using the in built review features for your client.
 3. Select one column from a table. Get film titles.
-4. Select one column from a table and alias it. Get languages.
-5. How many stores does the company have? How many employees? which are their names?
+4. Select one column from a table and alias it. Get unique list of film languages under the alias `language`. Note that we are not asking you to obtain the language per each film, but this is a good time to think about how you might get that information in the future.
+5. Using the `select` statements and reviewing how many records are returned, can you find out how many stores and staff does the company have? Can you return a list of employee first names only?
+6. Bonus: How many unique days did customers rent movies in this dataset?

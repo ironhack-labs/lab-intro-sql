@@ -1,0 +1,10 @@
+select * from sakila.actor;
+select * from sakila.film;
+select * from sakila.customer;
+select title from sakila.film;
+select name as language from sakila.language;
+select * from sakila.store;
+select count(*) from sakila.store;
+select * from sakila.staff;
+select count(*) from sakila.staff;
+select first_name from sakila.staff;

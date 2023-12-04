@@ -14,3 +14,8 @@ select * from customer;
 
 select title from film;
 
+select distinct language_id as 'language' from film;
+
+select count(store_id) as store_count from store;
+
+select count(staff_id) as staff_count from staff;

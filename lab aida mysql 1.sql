@@ -7,15 +7,9 @@
 -- 5.3 Return a list of employee first names only?
 
 use sakila;
-
-select * from actor;
-select * from film;
-select * from customer;
-
+select * from actor, film, customer;
 select title from film;
-
 select distinct language_id as 'language' from film;
-
-select count(store_id) as store_count from store;
-
-select count(staff_id) as staff_count from staff;
+select count(*) store_id from store;
+select count(*) staff_id from staff;
+select first_name from staff;
